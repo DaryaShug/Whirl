@@ -1,0 +1,62 @@
+.automated {
+	width: var(--container-width);
+
+    .block_content {
+        display: flex;
+        justify-content: space-between;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+
+            h1 {
+                font-family: var(--font-accent);
+                font-size: 58px;
+                line-height: 63.8px;
+                letter-spacing: 0.2px;  
+                width: 500px;    
+                margin-top: 50px;  
+                margin-bottom: 25px;    
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: 0.5px; 
+                width: 352px;
+                margin-bottom: 37px;             
+            }
+
+            .more {
+                font-size: 17px;
+                line-height: 27px;
+                letter-spacing: 0.2px; 
+                margin-left: 21px;
+
+                position: relative;
+                padding-right: 20px;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 2px;
+                    height: 2px;
+                    right: 10px;
+                    top: 18px;
+
+                    background: var(--text-color-link);
+                    box-shadow: 2px 0 0 var(--text-color-link), 4px 0 0 var(--text-color-link), 6px 0 0 var(--text-color-link), 8px 0 0 var(--text-color-link), 10px 0 0 var(--text-color-link), 12px 0 0 var(--text-color-link),
+                                12px -2px 0 var(--text-color-link), 12px -4px 0 var(--text-color-link), 12px -6px 0 var(--text-color-link), 12px -8px 0 var(--text-color-link), 12px -10px 0 var(--text-color-link), 12px -12px 0 var(--text-color-link);
+                    transform: rotate(-45deg);
+                }
+            }
+            .demo {
+                font-size: 17px;
+                line-height: 27px;
+                letter-spacing: 0.2px;  
+                padding: 10px 34px;          
+            }
+        }
+    }
+}

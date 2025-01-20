@@ -1,0 +1,17 @@
+/* Base */
+@use "./base/reset";
+@use "./base/vars";
+@use "./base/base";
+@use "./base/utils";
+@use "./base/containers";
+@use "./base/sticky-footer";
+@use "./base/fonts";
+
+/* Blocks */
+
+@use "blocks/header";
+@use "blocks/block_automated";
+@use "blocks/block_trusted";
+@use "blocks/block_coloredBlocks";
+@use "blocks/block_relaxing";
+@use "blocks/footer";

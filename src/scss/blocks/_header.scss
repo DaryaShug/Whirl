@@ -1,0 +1,37 @@
+.header {
+	width: var(--container-width);
+
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 0.35px;
+
+	padding-top: 19px;
+	margin-bottom: 90px;
+	
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	nav {
+		margin: 0 auto 0 35px;
+		ul {
+			display: flex;
+			gap: 25px;
+			
+			a {
+				color: #33383F;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	.demo {
+		margin-right: 5px;
+		margin-left: 30px;
+	}
+}
+

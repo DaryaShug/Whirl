@@ -1,0 +1,24 @@
+:root {
+	--max-width: 1440px;
+	--container-width: 1230px;
+	--container-padding: 50px;
+
+	--font-main: 'Inter', serif;
+	--font-accent: 'Fraunces', serif;
+
+	--page-bg: #fff;
+	--text-color: #1F1F1F;
+	--text-color-light: #626A72;
+	--text-color-white: white;
+	--text-color-accent: #ac182c;
+	--text-color-link: #0070A0;
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}

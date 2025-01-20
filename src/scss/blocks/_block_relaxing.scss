@@ -1,0 +1,110 @@
+.relaxing {
+	width: var(--container-width);
+
+    padding: 80px 0;
+    background-color: #F7F9FA;
+
+    h1 {
+        font-family: var(--font-accent);
+        font-size: 42px;
+        line-height: 50.4px;
+        letter-spacing: 0.2px;        
+    }
+
+    h2 {
+        font-family: var(--font-accent);
+        font-size: 39px;
+        line-height: 50.4px;
+        letter-spacing: 0.5px;    
+    }
+
+    h3 {
+        font-family: var(--font-accent);
+        font-size: 21px;
+        line-height: 25.2px;
+        letter-spacing: 0.2px;  
+
+        margin-bottom: 18px;
+
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 48px;
+            height: 100%;
+            left: -48px;
+            top: 0;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            right: 30px;
+            top: 10px;
+
+            background: #CECAC4;
+            box-shadow: 2px 0 0 #CECAC4, 4px 0 0 #CECAC4, 6px 0 0 #CECAC4, 8px 0 0 #CECAC4, 10px 0 0 #CECAC4,
+                        10px -2px 0 #CECAC4, 10px -4px 0 #CECAC4, 10px -6px 0 #CECAC4, 10px -8px 0 #CECAC4, 10px -10px 0 #CECAC4;
+            transform: rotate(45deg);
+        }
+
+        &:hover {
+            cursor: pointer;
+            background-color: #f2f1ef;
+        }
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.25px;
+        width: 90%;  
+    }
+
+    .block_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        
+        .list {
+            width: 74%;
+            margin-top: 60px;
+
+            .list-element {
+                padding: 19px 0 21px 60px;
+
+                border-top: 1px solid #C2CDD8;
+                border-bottom: 1px solid #C2CDD8;
+                margin-bottom: 1px;
+
+
+
+
+
+
+                &:nth-child(1) h3:before {
+                    background: url("../../img/icon1.png") top -2px left no-repeat;
+                }
+                &:nth-child(2) h3:before {
+                    background: url("../../img/icon2.png") top -2px left no-repeat;
+                }
+                &:nth-child(3) h3:before {
+                    background: url("../../img/icon3.png") top -2px left no-repeat;
+                }
+                &:nth-child(4) h3:before {
+                    background: url("../../img/icon4.png") top -2px left no-repeat;
+                }
+
+            }
+        }
+
+        img {
+            display: block;
+            margin-top: 95px;
+            margin-right: 42px;
+        }
+    }
+}

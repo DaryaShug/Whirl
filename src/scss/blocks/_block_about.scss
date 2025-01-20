@@ -1,0 +1,49 @@
+.about {
+	width: var(--container-width);
+
+    padding: 120px 0 134px 0;
+
+
+    .block_content {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        align-items: end;
+    }
+
+    h1 {
+        align-self: flex-start;
+        margin-right: auto;
+
+        font-family: var(--font-accent);
+        font-size: 41px;
+        line-height: 50.4px;
+        letter-spacing: 0.4px;  
+
+        span {
+            font-size: 42px;
+            line-height: 50.4px;
+            letter-spacing: 0.2px;
+        }
+    }
+
+    .content {
+        width: 20%;
+
+        h3 {
+            font-family: var(--font-accent);
+            font-size: 25px;
+            line-height: 31.25px;
+            letter-spacing: 0.2px;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            margin-top: 12px;
+        }
+    }
+
+}

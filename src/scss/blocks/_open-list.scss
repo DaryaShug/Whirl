@@ -1,0 +1,31 @@
+
+.list-description_1, .list-description_2, .list-description_3, .list-description_4 {
+    display: none;
+}
+
+.list-description--open_1, .list-description--open_2, .list-description--open_3, .list-description--open_4 {
+    display: block;
+}
+
+.list-open-btn_1, .list-open-btn_2, .list-open-btn_3, .list-open-btn_4 {
+    width: 17px;
+    height: 20px;
+    z-index: 999;
+}
+
+.list-icon_1, .list-icon_2, .list-icon_3, .list-icon_4 {
+    position: relative;
+    width: 2px;
+    height: 2px;
+    right: 0;
+    top: 0;
+
+    background: #CECAC4;
+    box-shadow: 2px 0 0 #CECAC4, 4px 0 0 #CECAC4, 6px 0 0 #CECAC4, 8px 0 0 #CECAC4, 10px 0 0 #CECAC4,
+                10px -2px 0 #CECAC4, 10px -4px 0 #CECAC4, 10px -6px 0 #CECAC4, 10px -8px 0 #CECAC4, 10px -10px 0 #CECAC4;
+    transform: rotate(45deg);
+}
+
+.list-icon_1.list-icon--active_1, .list-icon_2.list-icon--active_2, .list-icon_3.list-icon--active_3, .list-icon_4.list-icon--active_4 {
+    transform:  translate(14px,8px) rotate(-135deg);
+}

@@ -24,8 +24,6 @@
         line-height: 25.2px;
         letter-spacing: 0.2px;  
 
-        margin-bottom: 18px;
-
         position: relative;
 
         &::before {
@@ -37,24 +35,25 @@
             top: 0;
         }
 
-        &::after {
-            content: "";
-            position: absolute;
-            width: 2px;
-            height: 2px;
-            right: 30px;
-            top: 10px;
+        // &::after {
+        //     content: "";
+        //     position: absolute;
+        //     width: 2px;
+        //     height: 2px;
+        //     right: 30px;
+        //     top: 10px;
 
-            background: #CECAC4;
-            box-shadow: 2px 0 0 #CECAC4, 4px 0 0 #CECAC4, 6px 0 0 #CECAC4, 8px 0 0 #CECAC4, 10px 0 0 #CECAC4,
-                        10px -2px 0 #CECAC4, 10px -4px 0 #CECAC4, 10px -6px 0 #CECAC4, 10px -8px 0 #CECAC4, 10px -10px 0 #CECAC4;
-            transform: rotate(45deg);
-        }
+        //     background: #CECAC4;
+        //     box-shadow: 2px 0 0 #CECAC4, 4px 0 0 #CECAC4, 6px 0 0 #CECAC4, 8px 0 0 #CECAC4, 10px 0 0 #CECAC4,
+        //                 10px -2px 0 #CECAC4, 10px -4px 0 #CECAC4, 10px -6px 0 #CECAC4, 10px -8px 0 #CECAC4, 10px -10px 0 #CECAC4;
+        //     transform: rotate(45deg);
+        // }
+    }
 
-        &:hover {
-            cursor: pointer;
-            background-color: #f2f1ef;
-        }
+    .h3-btn {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 12px;
     }
 
     p {
@@ -62,6 +61,8 @@
         line-height: 24px;
         letter-spacing: 0.25px;
         width: 90%;  
+
+        margin-top: 18px;
     }
 
     .block_content {
@@ -71,6 +72,7 @@
         
         .list {
             width: 74%;
+            width: 445px;
             margin-top: 60px;
 
             .list-element {
@@ -81,7 +83,7 @@
                 margin-bottom: 1px;
 
 
-
+                position: relative;
 
 
 

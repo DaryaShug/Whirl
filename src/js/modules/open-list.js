@@ -8,7 +8,6 @@ function openList() {
 	listBtn_1.onclick = function () {
 		list_1.classList.toggle('list-description--open_1');
 		listIcon_1.classList.toggle('list-icon--active_1');
-		document.body.classList.toggle('no-scroll');
 	};
 
 // --------------------------------------------------------------
@@ -19,7 +18,6 @@ function openList() {
 	listBtn_2.onclick = function () {
 		list_2.classList.toggle('list-description--open_2');
 		listIcon_2.classList.toggle('list-icon--active_2');
-		document.body.classList.toggle('no-scroll');
 	};
 
 // --------------------------------------------------------------
@@ -30,7 +28,6 @@ function openList() {
 	listBtn_3.onclick = function () {
 		list_3.classList.toggle('list-description--open_3');
 		listIcon_3.classList.toggle('list-icon--active_3');
-		document.body.classList.toggle('no-scroll');
 	};
 
 // --------------------------------------------------------------
@@ -41,7 +38,6 @@ function openList() {
 	listBtn_4.onclick = function () {
 		list_4.classList.toggle('list-description--open_4');
 		listIcon_4.classList.toggle('list-icon--active_4');
-		document.body.classList.toggle('no-scroll');
 	};
 }
 

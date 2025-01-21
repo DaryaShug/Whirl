@@ -1,0 +1,73 @@
+.coloredBlocks2 {
+    padding: 79px 0 70px 0;
+
+    background-color: #F7F9FA;
+
+    .block_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+        
+        h1 {
+            font-family: var(--font-accent);
+            font-size: 42px;
+            line-height: 50.4px;
+            letter-spacing: 0.2px;
+        }
+        a {
+            margin-right: 35px;
+            margin-top: 8px;
+            font-size: 17px;
+            line-height: 27.4px;
+            letter-spacing: 0.2px;
+        }
+    }
+
+    .block_content {
+        display: flex;
+        justify-content: space-between;
+        gap: 3%;
+    }
+
+    .coloredBlock {
+        background-color: white;
+
+        .content {
+            padding: 24px;
+        }
+        
+
+        a {
+            padding: 3px 22px 6px 22px;
+            background-color: #E6F7FF;
+            color: #2C90C9;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.4px;
+        }
+
+
+        h3 {
+            font-family: var(--font-accent);
+            font-size: 25px;
+            line-height: 31.25px;
+            letter-spacing: 0.2px;
+            margin-top: 12px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 19.6px;
+            letter-spacing: 0.2px;
+            margin: 13px 0;
+        }
+
+        span {
+            font-size: 12px;
+            line-height: 19.6px;
+            letter-spacing: 0.1px;
+        }
+    }
+
+}

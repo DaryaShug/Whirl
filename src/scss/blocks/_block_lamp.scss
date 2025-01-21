@@ -1,0 +1,72 @@
+.lamp {
+
+    padding: 80px 0 95px 0;
+    background-color: var(--text-color-link);
+    color: var(--text-color-white);
+
+
+    .block_content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img{
+        margin-left: 60px;
+    }
+
+    .content {
+        width: 44%;
+    }
+
+    h1 {
+        font-family: var(--font-accent);
+        font-size: 42px;
+        line-height: 50.5px;
+        letter-spacing: 0.2px; 
+        margin-bottom: 21px;       
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.2px;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        font-size: 17px;
+        line-height: 21.6px;
+        letter-spacing: 0.2px;
+
+        li {
+            margin-bottom: 9px;
+            margin-left: 23px;
+
+            position: relative;
+
+            &::before {
+            content: "";
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            left: -25px;
+            top: 10px;
+
+            background: #FFCCDD;
+            box-shadow: 2px 0 0 #FFCCDD, 4px 0 0 #FFCCDD, 6px 0 0 #FFCCDD,
+                        6px -2px 0 #FFCCDD, 6px -4px 0 #FFCCDD, 6px -6px 0 #FFCCDD, 6px -8px 0 #FFCCDD, 6px -10px 0 #FFCCDD, 6px -12px 0 #FFCCDD, 6px -14px 0 #FFCCDD;
+            transform: rotate(45deg);
+            }
+        }
+        margin-bottom: 38px;
+    }
+
+    a {
+        color: var(--text-color-white);
+        font-size: 17px;
+        line-height: 27px;
+        letter-spacing: 0.2px;
+        margin-left: 30px;
+    }
+
+}

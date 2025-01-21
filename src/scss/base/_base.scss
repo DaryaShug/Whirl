@@ -11,6 +11,8 @@ body {
 .wrapper {
 	max-width: var(--max-width);
 	margin: 0 auto;
+
+	width: var(--container-width);
 }
 
 a {
@@ -21,6 +23,7 @@ a {
 }
 
 .demo {
+	display: inline-block;
 	color: var(--text-color-white);
 	background-color: var(--text-color-link);
 	padding: 6px 22px;

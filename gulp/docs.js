@@ -78,7 +78,6 @@ gulp.task('sass:docs', function(){
         .pipe(autoprefixer())
         .pipe(sassGlob())
         // .pipe(webpCSS())
-        // .pipe(groupMedia())  // выдаёт ошибку
         .pipe(sass())
         .pipe(csso())
         .pipe(sourceMaps.write())
